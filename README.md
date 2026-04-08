@@ -14,10 +14,10 @@
 
 Логин и пароль читаются из переменных окружения `STAFF_LOGIN` и `STAFF_PASSWORD`. Это учётные данные тестового учебного стенда, в репозитории их нет.
 
-\`\`\`bash
+​```bash
 export STAFF_LOGIN="your_login"
 export STAFF_PASSWORD="your_password"
 dotnet test
-\`\`\`
+​```
 
 Требования: .NET SDK, Google Chrome.
