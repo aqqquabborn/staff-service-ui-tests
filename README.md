@@ -15,9 +15,9 @@
 Логин и пароль читаются из переменных окружения `STAFF_LOGIN` и `STAFF_PASSWORD`. Это учётные данные тестового учебного стенда, в репозитории их нет.
 
 ​
-export STAFF_LOGIN="your_login"
-export STAFF_PASSWORD="your_password"
-dotnet test
+export STAFF_LOGIN="your_login" /n
+export STAFF_PASSWORD="your_password" /n
+dotnet test /n
 ​
 
 Требования: .NET SDK, Google Chrome.
