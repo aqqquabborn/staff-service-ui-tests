@@ -147,7 +147,7 @@ namespace _1_test
                 $"Ожидалось сообщение об ошибке '{expectedErrorText}', но фактический текст: '{errorBlock.Text}'"
             );
         }
-                [Test]
+        [Test]
         public void MainMenuNavigation_EventsItemClick_OpensEventsPage()
         {
             Authorize();
